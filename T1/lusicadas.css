@@ -1,0 +1,69 @@
+quadra,
+quintilha,
+grande {
+    display: block;
+}
+
+body {
+    background-image: url("imgs/adamastor.jpg");
+    background-color: #000000;
+    text-align: left;
+    text-emphasis-color: black;
+    color: black;
+}
+
+
+/* Container holding the image and the text */
+
+.container {
+    position: relative;
+    width: 100%;
+    background-image: url("paper.jpg");
+    bottom: -10px;
+    height: 735px;
+    width: 315px;
+    width: 360px;
+    left: 35%;
+}
+
+
+/* Bottom right text */
+
+.text-block {
+    position: absolute;
+    top: 5px;
+}
+
+mostrengo {
+    color: green;
+}
+
+* {
+    font-size: 100%;
+    font-family: serif;
+}
+
+leme {
+    color: red;
+}
+
+quadra,
+quintilha,
+grande {
+    margin: 30px;
+}
+
+titulo {
+    display: block;
+    font-size: 24px;
+}
+
+autor {
+    display: block;
+    font-size: 18px;
+}
+
+livro {
+    display: block;
+    font-size: 20px;
+}
