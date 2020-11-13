@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectRecord SYSTEM "file:/home/tania/Desktop/projectRecord.dtd">
+<projectRecord>
+    <keyName>PRI_TP2</keyName>
+    <title>DTD e XML</title>
+    <subtitle>Trabalho proposto</subtitle>
+    <beginDate>Novembro 2020</beginDate>
+    <endDate>Novembro 2020</endDate>
+    <supervisor href="http://ww4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    <workTeam>
+        <element>
+            <numero>A85176</numero>
+            <name>Tânia Filipa Amorim Rocha</name>
+            <email>a85176@alunos.uminho.pt</email>
+        </element>
+    </workTeam>
+    <abstract>
+        <paragrafo>Trabalho prático número 2 com objetivo de praticar a utlização e <bold>DTD</bold> e geração do <italico>XML.</italico></paragrafo>
+    </abstract>
+    <deliverables>
+        <pag href="projectRecord.dtd">Project Record DTD</pag>
+    </deliverables>
+</projectRecord>
