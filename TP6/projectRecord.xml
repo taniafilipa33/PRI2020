@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "../projectRecord.dtd">
+<project-record>
+    <meta>
+        <title>PRI TPC6</title>
+        <key>PRI2020::TP6</key>
+        <supervisor url="http://ww4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <b_date>Novembro 2020</b_date>
+        <e_date>Novembro 2020</e_date>
+    </meta>
+    <workteam>
+        <worker num="A85176">
+            <name>Tânia Rocha</name>
+            <email>a85176@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>TPC6 da cadeira de <b>Processamento e Representação de Informação</b>.</p>
+        <p>TPC com objetivo de praticar o uso de <b>node.js</b> que através de servidores. 
+       Criaçaõ de uma página unica para a apresentação e agendamento de tarefas</p></abstract>
+    <deliverables>
+        <url url="arq.dtd">DTD do ARQ</url>        
+        <url url="arq.xml">XML do ARQ</url>
+        <url url="arq.xsl">XSL do ARQ</url>
+        <url url="arqweb/index.html">index HTML do ARQ</url>
+    </deliverables>
+</project-record>
