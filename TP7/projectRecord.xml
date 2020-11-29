@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project-record SYSTEM "../projectRecord.dtd">
+<project-record>
+    <meta>
+        <title>PRI TPC7</title>
+        <key>PRI2020::TP7</key>
+        <supervisor url="http://ww4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <b_date>Novembro 2020</b_date>
+        <e_date>Novembro 2020</e_date>
+    </meta>
+    <workteam>
+        <worker num="A85176">
+            <name>Tânia Rocha</name>
+            <email>a85176@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>TPC7 da cadeira de <b>Processamento e Representação de Informação</b>.</p>
+        <p>TPC com objetivo de praticar o uso de <b>node.js</b> que através de servidores e utilização do mongoose.
+       Criação de uma página web para a apresentação e de alunos e os seus respetivos tpcs. Possibilidade de alterar eliminar e adicionar.</p></abstract>
+    <deliverables>      
+        <url url="arq.xml">XML do ARQ</url>
+    </deliverables>
+</project-record>

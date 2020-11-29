@@ -1,0 +1,58 @@
+extends layout
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h2 Registo de novo aluno
+            h3 Preencha os campos:
+            form.w3-container(action='/editar/'+aluno._id method='POST')
+                label Nome   
+                    input.w3-input(type='text', name='Nome', value=aluno.Nome)                    
+                    p
+                label Número 
+                    input.w3-input(type='text', name='Número', value=aluno.Número)                    
+                    p
+                label Git    
+                    input.w3-input(type='text', name='Git',value=aluno.Git)
+                    p
+                label.w3-text-blue-white Editar TPCS feitos:
+                p
+                    label(class='checkbox-inline')
+                        input(type='checkbox' name='tpc1') 
+                        b.w3-text-black   TPC1
+                        p
+                    label
+                        input(type='checkbox' name='tpc2') 
+                        b.w3-text-black   TPC2
+                        p
+                    label(class='checkbox-inline')
+                        input(type='checkbox' name='tpc3')
+                        b.w3-text-black   TPC3 
+                        p
+                    label(class='checkbox-inline')
+                        input(type='checkbox' name='tpc4')
+                        b.w3-text-black   TPC4
+                        p
+                    label(class='checkbox-inline')
+                        input(type='checkbox' name='tpc5')
+                        b.w3-text-black   TPC5
+                        p
+                    label(class='checkbox-inline')
+                        input(type='checkbox' name='tpc6')
+                        b.w3-text-black   TPC6
+                        p
+                    label(class='checkbox-inline')
+                        input(type='checkbox' name='tpc7')
+                        b.w3-text-black   TPC7
+                        p
+                    label(class='checkbox-inline')
+                        input(type='checkbox' name='tpc8')
+                        b.w3-text-black   TPC8
+                        p   
+                actions
+                    input(type='reset' value='Limpar valores')
+                    input(type='submit', value='Registar')
+
+            footer(class='w3-cotainer w3-teal')
+                p  
+                    a(href='/alunos') Voltar à Lista de Alunos  
+                p PRI2020

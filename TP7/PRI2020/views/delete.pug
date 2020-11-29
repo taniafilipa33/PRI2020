@@ -1,0 +1,7 @@
+extends layout
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h2 Tem a certeza que pretende eliminar o aluno?
+            a(href="/delete/"+aluno._id method = "delete") Sim
+            a(href="/alunos/"+aluno._id) Não

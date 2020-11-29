@@ -1,0 +1,23 @@
+extends layout
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3 Lista de Alunos
+        if lista.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr
+                        th Número
+                        th Nome
+                        th Git
+                        each a in lista
+                            tr
+                                th
+                                    a(href="/alunos/"+a._id)= a.Número
+                                th= a.Nome
+                                th= a.Git
+        else
+            div(class="w3-container")
+                p Ainda nao há alunos registados
+            footer(class="w3-cotainer w3-teal")
+                p PRI2020
