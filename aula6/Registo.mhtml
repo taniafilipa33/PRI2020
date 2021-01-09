@@ -1,0 +1,63 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://elearning.uminho.pt/bbcswebdav/pid-1051833-dt-content-rid-4042012_1/courses/2021.H507P7_1/form-aluno.html
+Subject: Registo de um aluno
+Date: Mon, 16 Nov 2020 14:28:48 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--rlWrssIZyXLhjCG5O4EbQrECevy874ljT7nVAC8iwi----"
+
+
+------MultipartBoundary--rlWrssIZyXLhjCG5O4EbQrECevy874ljT7nVAC8iwi----
+Content-Type: text/html
+Content-ID: <frame-CB72F23DFFAFF4F1CE02156886DD1FB5@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://elearning.uminho.pt/bbcswebdav/pid-1051833-dt-content-rid-4042012_1/courses/2021.H507P7_1/form-aluno.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8">
+        <title>Registo de um aluno</title>
+       =20
+        <link rel=3D"stylesheet" href=3D"https://elearning.uminho.pt/bbcswe=
+bdav/pid-1051833-dt-content-rid-4042012_1/courses/2021.H507P7_1/w3.css">
+    </head>
+    <body>
+        <div class=3D"w3-container w3-teal">
+            <h2>Registo de Aluno</h2>
+        </div>
+         =20
+          <form class=3D"w3-container" action=3D"https://elearning.uminho.p=
+t/alunos" method=3D"POST">
+            <label class=3D"w3-text-teal"><b>Nome</b></label>
+            <input class=3D"w3-input w3-border w3-light-grey" type=3D"text"=
+ name=3D"nome">
+         =20
+            <label class=3D"w3-text-teal"><b>N=C3=BAmero / Identificador</b=
+></label>
+            <input class=3D"w3-input w3-border w3-light-grey" type=3D"text"=
+ name=3D"id">
+
+            <label class=3D"w3-text-teal"><b>Curso</b></label>
+            <input class=3D"w3-input w3-border w3-light-grey" type=3D"text"=
+ name=3D"curso">
+
+            <label class=3D"w3-text-teal"><b>Link para o reposit=C3=B3rio n=
+o Git</b></label>
+            <input class=3D"w3-input w3-border w3-light-grey" type=3D"text"=
+ name=3D"git">
+         =20
+            <input class=3D"w3-btn w3-blue-grey" type=3D"submit" value=3D"R=
+egistar">
+            <input class=3D"w3-btn w3-blue-grey" type=3D"reset" value=3D"Li=
+mpar valores">=20
+          </form>
+   =20
+</body></html>
+------MultipartBoundary--rlWrssIZyXLhjCG5O4EbQrECevy874ljT7nVAC8iwi----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://elearning.uminho.pt/bbcswebdav/pid-1051833-dt-content-rid-4042012_1/courses/2021.H507P7_1/w3.css
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--rlWrssIZyXLhjCG5O4EbQrECevy874ljT7nVAC8iwi------

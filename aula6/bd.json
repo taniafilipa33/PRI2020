@@ -1,0 +1,16 @@
+{
+  "alunos": [
+    {
+      "nome": "Tânia Rocha",
+      "id": "A85176",
+      "curso": "MIEI",
+      "git": "https://github.com/taniafilipa33"
+    },
+    {
+      "nome": "Alberta Pereira",
+      "id": "A33876",
+      "curso": "Psicologia",
+      "git": ""
+    }
+  ]
+}
