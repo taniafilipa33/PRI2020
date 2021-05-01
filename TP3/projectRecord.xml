@@ -2,11 +2,11 @@
 <!DOCTYPE project-record SYSTEM "../projectRecord.dtd">
 <project-record>
     <meta>
-        <title>PRI TPC3</title>
-        <key>PRI2020::TP3</key>
+        <title>PRI TESTE</title>
+        <key>PRI2020::TESTE</key>
         <supervisor url="http://ww4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
-        <b_date>Novembro 2020</b_date>
-        <e_date>Novembro 2020</e_date>
+        <b_date>JANEIRO 2021</b_date>
+        <e_date>JANEIRO 2021</e_date>
     </meta>
     <workteam>
         <worker num="A85176">
@@ -15,13 +15,36 @@
         </worker>
     </workteam>
     <abstract>
-        <p>TPC3 da cadeira de <b>Processamento e Representação de Informação</b>.</p>
-        <p>O objetivo deste TPC era criar uma <i>stylesheet</i> transformadora em <b>XSLT</b>, e com um ficheiro XML de input, gerar um output com extensão HTML.</p>
-    </abstract>
-    <deliverables>
-        <url url="arq.dtd">DTD do ARQ</url>        
-        <url url="arq.xml">XML do ARQ</url>
-        <url url="arq.xsl">XSL do ARQ</url>
-        <url url="arq.html">HTML do ARQ</url>
-    </deliverables>
+        <p> <b>1</b>
+No exercicio 1 foi efetuado o tratamento de dados so ficheiro JSON fornecido:</p>
+   <p> -adicionar aspas n parametro ref em cada objeto;</p>
+  <p>  -adicionar virgula que faltam dentro de alguns objetos;</p>
+  <p>  -adicionar aspas em volta de algumas das datas;</p>
+  <p>  -como pedido no enunciado foi gerado o atributo _id em cada objeto que contém o valor de ref mas em vez de / tem _ </p>
+<p>Para importar para uma nova BD em Mongo,foi usado o comando: mongoimport -d Casamentos -c Casamentos --jsonArray -f casamentos.json
+</p>
+<p>
+Este exercicio foi criado como uma aplicacao usando o express, sendo que o codigo se encontra no ficheiro api.js.</p>
+<p>A pasta models contem o schema de um casamento.</p>
+<p>A pasta controllers as queries usadas no Mongo.</p>
+<p>Algumas queries não apresentam o desejado devido às regex, em que alguns sitios fucnionam mas ao fazer o get não trabalham como deviam.
+</p><b>2</b>
+<p>
+As respostas ao exercicio de aquecimento:</p>
+<p>Pergunta 1</p>
+<p>clav-api.di.uminho.pt/v2/classes?nivel=3&token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExMTExMjIyMyIsImxldmVsIjoyLCJlbnRpZGFkZSI6ImVudF9BM0VTIiwiZW1haWwiOiJwcmkyMDIwQHRlc3RlLnVtaW5oby5wdCIsImlhdCI6MTYxMDk4NzI1MSwiZXhwIjoxNjExMDE2MDUxfQ.VHepO68V-Wa3IMdqcFmDAONeTsp_9Ev4KV52FlpKw6_3J7eBNTV93yOfXnmIQNv_n0BSAJbu89fWjW0bATHqFgBO5ooGVraCtAfpBRA5V0B6ohOSVZ-nzgv00hgCIBdaJB0d-zt8bos5eVP3Fp4HBQaQvaSw5gH9x9ZTdhYoP4iUNbZAHPTRk9tu2fuzmFdpNhDGEB0NjAROiC_JfkVmJYghsR6YCS4lh5FyFBbKpjKPfG0EnUZ5vlzjuqfNnpr8KjrH8ZgEkRE2lhNdIiF5WAr6FeSMuPwZmTjooCnB427cc0Zn--x8Wcb-VCHGBgKcQw4ADWTt2aar665lpIcccg
+</p>
+<p>Pergunta 2 </p>
+<p>clav-api.di.uminho.pt/v2/classes?nivel=4&token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExMTExMjIyMyIsImxldmVsIjoyLCJlbnRpZGFkZSI6ImVudF9BM0VTIiwiZW1haWwiOiJwcmkyMDIwQHRlc3RlLnVtaW5oby5wdCIsImlhdCI6MTYxMDk4NzI1MSwiZXhwIjoxNjExMDE2MDUxfQ.VHepO68V-Wa3IMdqcFmDAONeTsp_9Ev4KV52FlpKw6_3J7eBNTV93yOfXnmIQNv_n0BSAJbu89fWjW0bATHqFgBO5ooGVraCtAfpBRA5V0B6ohOSVZ-nzgv00hgCIBdaJB0d-zt8bos5eVP3Fp4HBQaQvaSw5gH9x9ZTdhYoP4iUNbZAHPTRk9tu2fuzmFdpNhDGEB0NjAROiC_JfkVmJYghsR6YCS4lh5FyFBbKpjKPfG0EnUZ5vlzjuqfNnpr8KjrH8ZgEkRE2lhNdIiF5WAr6FeSMuPwZmTjooCnB427cc0Zn--x8Wcb-VCHGBgKcQw4ADWTt2aar665lpIcccg
+</p>
+<p>Pergunta 3</p>
+<p>clav-api.di.uminho.pt/v2/classes/c750.30/descendencia?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExMTExMjIyMyIsImxldmVsIjoyLCJlbnRpZGFkZSI6ImVudF9BM0VTIiwiZW1haWwiOiJwcmkyMDIwQHRlc3RlLnVtaW5oby5wdCIsImlhdCI6MTYxMDk4NzI1MSwiZXhwIjoxNjExMDE2MDUxfQ.VHepO68V-Wa3IMdqcFmDAONeTsp_9Ev4KV52FlpKw6_3J7eBNTV93yOfXnmIQNv_n0BSAJbu89fWjW0bATHqFgBO5ooGVraCtAfpBRA5V0B6ohOSVZ-nzgv00hgCIBdaJB0d-zt8bos5eVP3Fp4HBQaQvaSw5gH9x9ZTdhYoP4iUNbZAHPTRk9tu2fuzmFdpNhDGEB0NjAROiC_JfkVmJYghsR6YCS4lh5FyFBbKpjKPfG0EnUZ5vlzjuqfNnpr8KjrH8ZgEkRE2lhNdIiF5WAr6FeSMuPwZmTjooCnB427cc0Zn--x8Wcb-VCHGBgKcQw4ADWTt2aar665lpIcccg
+</p>
+<p>Pergunta 4</p>
+<p>clav-api.di.uminho.pt/v2/classes/c750.30.001/procRel?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExMTExMjIyMyIsImxldmVsIjoyLCJlbnRpZGFkZSI6ImVudF9BM0VTIiwiZW1haWwiOiJwcmkyMDIwQHRlc3RlLnVtaW5oby5wdCIsImlhdCI6MTYxMDk4NzI1MSwiZXhwIjoxNjExMDE2MDUxfQ.VHepO68V-Wa3IMdqcFmDAONeTsp_9Ev4KV52FlpKw6_3J7eBNTV93yOfXnmIQNv_n0BSAJbu89fWjW0bATHqFgBO5ooGVraCtAfpBRA5V0B6ohOSVZ-nzgv00hgCIBdaJB0d-zt8bos5eVP3Fp4HBQaQvaSw5gH9x9ZTdhYoP4iUNbZAHPTRk9tu2fuzmFdpNhDGEB0NjAROiC_JfkVmJYghsR6YCS4lh5FyFBbKpjKPfG0EnUZ5vlzjuqfNnpr8KjrH8ZgEkRE2lhNdIiF5WAr6FeSMuPwZmTjooCnB427cc0Zn--x8Wcb-VCHGBgKcQw4ADWTt2aar665lpIcccg
+</p>
+<p>
+Este exercicio 2 não ficou completo porque não consegui extrai as informações do website a partir do axios como esperava apesar de com o postman não ter tido qualquer problema
+</p>
+ </abstract>
 </project-record>
